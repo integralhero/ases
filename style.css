@@ -112,12 +112,52 @@
 	letter-spacing: 0.2em;
 }
 
+#stanford {
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	position: relative;
+	top: 2em;
+}
+
+#experience {
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	top: 2em;
+}
+
+#network {
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	top: 2em;
+}
+
 h2,h3 {
 	color:white;
 	text-align: center;
 	font-size: 4em;
 	position: relative;
 	top: 1em;
+}
+
+h4 {
+	color:white;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+	top: 170px;
+}
+
+p{
+	color:white;
+	position:relative;
+	top: 170px;
+	text-align: center;
+	font-size: 1.5em;
 }
 
 
