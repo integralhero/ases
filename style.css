@@ -30,7 +30,8 @@
 }
 
 #main {
-  background: url('img/main.jpg') no-repeat 50% 50% fixed; 
+  /*background: url('img/main.jpg') no-repeat 50% 50% fixed; */
+  background:black;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,7 +40,8 @@
   margin-top: -1.5em;
 }
 #third {
-  background: url('img/second.jpeg') no-repeat 50% 50% fixed; 
+  /*background: url('img/second.jpeg') no-repeat 50% 50% fixed;*/
+  background: black; 
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,11 +107,10 @@
 
 
 }
-#mainTitle {
+#mainTitle, #stanford, #experience, #network{
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-size: 6.0em;
-	text-align: center;
 	position: relative;
 	top: 1em;
 	text-align: left;
@@ -117,14 +118,29 @@
 	line-height: 0.9em;
 }
 
-#stanford {
+#stanford-subtitle, #experience-subtitle{
+	font-family: 'Montserrat', sans-serif;
 	color: white;
-	font-size: 4em;
-	text-align: center;
+	font-size: 2.0em;
 	position: relative;
-	top: 2em;
+	top: 3.4em;
+	text-align: left;
+	margin-left: 3.1em;
+	line-height: 1.4em;
 }
 
+#stanford-paragraph, #experience-paragraph{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 2.0em;
+	position: relative;
+	top: 4.5em;
+	text-align: left;
+	margin-left: 3.1em;
+	line-height: 1.4em;
+}
+
+/*
 #experience {
 	color: white;
 	font-size: 3em;
@@ -140,6 +156,7 @@
 	position: relative;
 	top: 2em;
 }
+*/
 
 h2,h3 {
 	color:white;
@@ -202,6 +219,8 @@ a.navbar-brand{
 .navbar-default .navbar-nav>li>a {
 	color: white;
 }
+
+
 
 @media only screen and (max-width: 560px) {
    #mainTitle { font-size: 4em; }
