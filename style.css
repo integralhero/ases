@@ -165,6 +165,43 @@ p{
 	font-size: 1.5em;
 }
 
+.navbar, .navbar-default{
+	background: rgba(0,0,0,0.8);
+}
+
+.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	
+	border: black;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+	transition: color 0.1s ease-in-out;
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: rgba(0,0,0,0.5);
+}
+
+.navbar-default, ul.right-navbar, li.right-navbar{
+	height: 5em;
+}
+
+li.right-navbar, li.left-navbar{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: .5em;
+	font-size: 1.4em;
+	letter-spacing: .2em;
+	margin-right: 0.8em;
+}
+
+a.navbar-brand{
+	font-size: 1.4em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
 
 @media only screen and (max-width: 560px) {
    #mainTitle { font-size: 4em; }
