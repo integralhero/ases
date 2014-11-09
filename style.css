@@ -102,6 +102,9 @@
 	letter-spacing: 4px;
 
 }
+ul>li>a.active {
+	border-bottom: white 1px solid;
+}
 #splashMainText {
 	width: 30%;
 
@@ -112,7 +115,7 @@
 	color: white;
 	font-size: 6.0em;
 	position: relative;
-	top: 1em;
+	top: 1.5em;
 	text-align: left;
 	margin-left: 1em;
 	line-height: 0.9em;
@@ -123,7 +126,7 @@
 	color: white;
 	font-size: 2.0em;
 	position: relative;
-	top: 3.4em;
+	top: 4.0em;
 	text-align: left;
 	margin-left: 3.1em;
 	line-height: 1.4em;
@@ -140,6 +143,55 @@
 	line-height: 1.4em;
 }
 
+
+#teamSplash {
+  background: url('img/teamSplash.jpg');
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+  margin-top: -1.4em;
+}
+#teamMain {
+  background:black;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+  margin-top: -1.5em;
+}
+.bio{
+	width: 19.7%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 0 20px;
+	color: white;
+	margin-top: 0em;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in;
+	-webkit-transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	-o-transition: opacity 0.3s ease-in;
+}
+.bio:hover {
+	opacity: 0.8;
+}
+.name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+}
+.title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+.bioText{
+	font-family: 'Georgia', sans-serif;
+	font-style: italic;
+}
 /*
 #experience {
 	color: white;
