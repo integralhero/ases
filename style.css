@@ -81,15 +81,17 @@
 	font-family: 'Montserrat', sans-serif;
 	padding: .6em 0.1em;
 	margin: 0.6em;
+
 	opacity: 1.0;
 	border-radius: 2px;
-	transition: opacity 0.2s ease-in;
-	-webkit-transition: opacity 0.2s ease-in;
-	-moz-transition: opacity 0.2s ease-in; 
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in; 
 
 }
 #splashButtons ul li:hover {
 	opacity: 1.0;
+	background: rgba(255,255,255,0.6);
 }
 #splashButtons {
 	margin-left: auto;
@@ -249,7 +251,7 @@ p{
 	-moz-transition: color 0.1s ease-in-out;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: rgba(0,0,0,0.5);
+	color: rgba(144,144,144,0.6);
 }
 
 .navbar-default, ul.right-navbar, li.right-navbar{
@@ -285,4 +287,25 @@ a.navbar-brand{
    	
    }
 
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

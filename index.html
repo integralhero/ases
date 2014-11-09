@@ -40,7 +40,7 @@
 	<!-- first "frame" -->
 	<div id="splash">
 		<div id="splashMainText">
-			<h1 id="mainTitle">WELCOME<BR> TO<BR> SUMMIT<BR> 2015.<BR></h1>
+			<h1 id="mainTitle" class="js-title-typing"><BR></h1>
 		</div>
 		<div id="splashButtons">
 			<ul class="center">
@@ -98,5 +98,16 @@
 
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/typed.js"></script>
+	<script>
+	  $(function(){
+	      $(".js-title-typing").typed({
+	        strings: ["WELCOME TO SUMMIT 2015."],
+	        typeSpeed: 55,
+	        showCursor: true
+	      });
+	  });
+	</script>
 </body>
 </html>
