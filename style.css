@@ -111,7 +111,7 @@ ul>li>a.active {
 }
 #splashMainText {
 	position: absolute;
-	top: 18.0em;
+	top: 15.0em;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -175,7 +175,7 @@ ul>li>a.active {
 	color: white;
 	font-size: 1.5em;
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 #pres {
 	position: absolute;
@@ -188,7 +188,7 @@ ul>li>a.active {
 	font-size: 1.5em;
 	font-style: italic;
 	font-family: 'Georgia', Serif;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 #tagline {
@@ -379,7 +379,7 @@ a.navbar-brand{
 }
 #logoimg {
 	width: auto;
-	height:8%;
+	height:1.6em;
 }
 .navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	background: none;
@@ -556,8 +556,8 @@ a.navbar-brand{
    	    top: 23em;
     }
     #splashMainText {
-    	font-size: 1.0em;
-    	top: 9em;
+    	font-size: 0.7em;
+    	top: 15em;
     }
 	#suni {
 		top: 6em;
