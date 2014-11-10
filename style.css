@@ -377,7 +377,10 @@ a.navbar-brand{
 .question:hover {
 	opacity: 1.0;
 }
-
+#logoimg {
+	width: auto;
+	height:8%;
+}
 .navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	background: none;
 	z-index: 1;
@@ -470,7 +473,6 @@ a.navbar-brand{
 @media only screen and (max-width: 568px) {
 	#mainTitle, #stanford, #experience, #network { 
 	   	font-size: 2.3em; 
-	   	margin-left: 6px;
    }
    #tagline {
    	font-size: 1.2em;
@@ -494,6 +496,81 @@ a.navbar-brand{
    .bio .bioText {
    	font-size: 1.0em;
    }
+   #date {
+   	top: 28em;
+   }
+}
+@media only screen and (max-width: 414px) {
+	#date {
+		top: 20em;
+	}
+	#splashMainText {
+    	font-size: 1.0em;
+    }
+    #tagline {
+	   	font-size: 0.8em;
+	   	top: 32em;
+	}
+}
+@media only screen and (max-width: 384px) {
+	#date {
+		top: 20em;
+	}
+	#splashMainText {
+    	font-size: 0.8em;
+    	top: 20em;
+    }
+    #tagline {
+	   	font-size: 0.8em;
+	   	top: 32em;
+	}
+	#team-sub {
+   	    font-size: 0.6em;
+   	    top: 16em;
+    }
+}
+@media only screen and (max-width: 375px) {
+	#date {
+		top: 20em;
+	}
+	#mainText {
+    	font-size: 1.2em;
+    	top: 20em;
+    }
+    #team-sub {
+   	    font-size: 0.6em;
+   	    top: 16em;
+    }
+    #tagline {
+	   	font-size: 0.8em;
+	   	top: 30em;
+	}
+}
+@media only screen and (max-width: 320px) {
+	#tagline {
+	   	font-size: 0.8em;
+	   	top: 22em;
+	}
+    #team-sub {
+   	    font-size: 0.4em;
+   	    top: 23em;
+    }
+    #splashMainText {
+    	font-size: 1.0em;
+    	top: 9em;
+    }
+	#suni {
+		top: 6em;
+		font-size: 1.0em;
+	}
+	#pres {
+		font-size: 0.8em;
+		top: 10em;
+	}
+	#date {
+		top: 20em;
+		font-size: 1.2em;
+	}
 }
 .typed-cursor{
     opacity: 1;
