@@ -5,8 +5,6 @@
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 100%;
-  margin-top: -1.4em;
-
 }
 #contact {
 	background: rgba(144,144,144,0.3);
@@ -17,7 +15,9 @@
  	 height: 40%;
  	 margin-top: -1.5em;
 }
-
+.navbar-default .navbar-nav>li>a:hover{
+	color: rgba(144,144,144,0.6);
+}
 #slice {
 	background: url('img/slice.jpeg') no-repeat 50% 50% fixed; 
 	background-size: cover;
@@ -72,25 +72,28 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	padding: 0;
 }
 
 #splashButtons ul li {
 	display: inline-block;
 	border: 4px solid white;
 	font-family: 'Montserrat', sans-serif;
-	padding: .6em 0.1em;
-	margin: 0.6em;
-
+	padding: 0.5em 1em;
+	background: rgba(255,255,255,0.15);
 	opacity: 1.0;
 	border-radius: 2px;
-	transition: all 0.2s ease-in;
-	-webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in; 
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in; 
+	font-family: 'Montserrat' sans-serif;
 
 }
 #splashButtons ul li:hover {
-	opacity: 1.0;
-	background: rgba(255,255,255,0.6);
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px yellow;
 }
 #splashButtons {
 	margin-left: auto;
@@ -107,20 +110,97 @@ ul>li>a.active {
 	border-bottom: white 1px solid;
 }
 #splashMainText {
-	width: 30%;
+	position: absolute;
+	top: 18.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
 
+}
+
+
+
+#splashMainTeamText {
+	position: absolute;
+	top: 6.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
 
 }
 #mainTitle, #stanford, #experience, #network{
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	color: white;
-	font-size: 5.0em;
-	position: relative;
+	font-size: 4.5em;
+	
 	opacity: 1.0;
-	top: 1.5em;
-	text-align: left;
-	margin-left: 1em;
+	
 	line-height: 0.9em;
+	
+
+}
+#suni {
+	position: absolute;
+	top: 6.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 5px;
+}
+#team-sub {
+	position: absolute;
+	top: 8.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+}
+#date {
+	position: absolute;
+	top: 22.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+}
+#pres {
+	position: absolute;
+	top: 8.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: 'Georgia', Serif;
+	letter-spacing: 5px;
+}
+
+#tagline {
+	position: absolute;
+	top: 12.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 2.2em;
+	font-family: 'Montserrat', Serif;
 }
 
 #stanford-subtitle, #experience-subtitle{
@@ -155,7 +235,6 @@ ul>li>a.active {
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 100%;
-  margin-top: -1.4em;
 }
 #teamMain {
   background:black;
@@ -164,7 +243,6 @@ ul>li>a.active {
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 100%;
-  margin-top: -1.5em;
 }
 .bio{
 	width: 19.7%;
@@ -196,6 +274,16 @@ ul>li>a.active {
 	font-family: 'Georgia', sans-serif;
 	font-style: italic;
 }
+.navbar-default .navbar-nav>li>a.apply {
+	transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+}
+.navbar-default .navbar-nav>li>a.apply:hover {
+	color: green;
+}
+
 /*
 #experience {
 	color: white;
@@ -238,26 +326,27 @@ p{
 	font-size: 1.5em;
 }
 
-.navbar, .navbar-default{
-	background: rgba(0,0,0,0.8);
+
+nav.nabar {
+	background: none;
+
 }
 
+
 .navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	
 	border: black;
 	border-radius: 0px;
 }
 .navbar-default .navbar-nav>li>a{
+	color: white;
 	transition: color 0.1s ease-in-out;
 	-webkit-transition: color 0.1s ease-in-out;
 	-moz-transition: color 0.1s ease-in-out;
 }
-.navbar-default .navbar-nav>li>a:hover{
-	color: rgba(144,144,144,0.6);
-}
+
 
 .navbar-default, ul.right-navbar, li.right-navbar{
-	height: 5em;
+	height: 6em;
 }
 
 li.right-navbar, li.left-navbar{
@@ -272,12 +361,26 @@ a.navbar-brand{
 	font-size: 1.4em;
 }
 
-.navbar-default .navbar-nav>li>a {
+.question {
+	font-size: 8em;
 	color: white;
+	position: absolute;
+	top: 0;
+	z-index:22;
+	left: 0;
+	opacity: 0;
+	transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+.question:hover {
+	opacity: 1.0;
 }
 
 .navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	background: black;
+	background: none;
+	z-index: 1;
 }
 #calvin {
 	background: url('img/CalvinLing.jpg') no-repeat;
@@ -343,14 +446,24 @@ a.navbar-brand{
    	top: 10em;
    }
    .navbar-default, ul.right-navbar, li.right-navbar {
-   	height: inherit;
+   	height: initial;
+   	background: rgba(255,255,255,1.0);
    }
+   .navbar-default .navbar-nav>li>a {
+   	color: black;
+   }
+	 ul>li>a.active {
+		border-bottom: black 1px solid;
+	}
    #splashButtons ul { 
    	font-size: 1.5em; 
    }
    #splashButtons ul li{ 
    	margin-bottom: 0.5em;
    	
+   }
+   #team-sub {
+   	font-size: 1.3em;
    }
 
 }
@@ -359,8 +472,17 @@ a.navbar-brand{
 	   	font-size: 2.3em; 
 	   	margin-left: 6px;
    }
+   #tagline {
+   	font-size: 1.2em;
+   	position: absolute;
+   	top: 20em;
+   }
+   #team-sub {
+   	font-size: 0.7em;
+   	top: 12em;
+   }
    #mainTitle {
-   	font-size: 4.0em;
+   	font-size: 2.5em;
    }
    #stanford-subtitle, #experience-subtitle {
    		top: 8em;

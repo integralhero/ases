@@ -3,12 +3,18 @@
 	<title>ASES: Asia-Pacific Student Entrepreneurship Society</title>
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:700,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+	
+	
+	<!-- first "frame" -->
+	<div id="splash">
+		<div class="question">
+	?	
+	</div>
+		<nav class="navbar navbar-default" role="navigation" id="navbar">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -24,77 +30,36 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-left">
-		      	<li class="left-navbar"><a class="navbar-brand" href="#"> ASES</a></li>
+		      	<!--<li class="left-navbar"><a class="navbar-brand" href="#"> ASES</a></li>-->
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right right-navbar">
 		        <li class="right-navbar"><a class="active"  href="index.html">HOME</a></li>
 		        <li class="right-navbar"><a href="#">ABOUT</a></li>
 		        <li class="right-navbar"><a href="team.html">TEAM</a></li>
-		        <li class="right-navbar"><a href="#">APPLY</a></li>
+		        <li class="right-navbar"><a class="apply" href="#">APPLY</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-	</div>
-	
-	<!-- first "frame" -->
-	<div id="splash">
+		<span id="suni">STANFORD UNIVERSITY</span>
+		<span id="pres">presents</span>
 		<div id="splashMainText">
-			<h1 id="mainTitle" class="js-title-typing"><BR></h1>
+			<h1 id="mainTitle" >ASES SUMMIT 2015</h1>
 		</div>
+		<span id="tagline" class="js-title-typing"></span>
+		<span id="date">April 10-14, 2015</span>
 		<div id="splashButtons">
 			<ul class="center">
 				<!-- <li><a href="#">Learn More</a></li>
 				<li><a href="#">About Us</a></li> -->
-				<li><a href="#">APPLY NOW</a></li>
-				<li><a href="#">LEARN MORE</a></li>
+				<li><a href="#">apply now</a></li>
+				<!-- <li><a href="#">LEARN MORE</a></li>-->
 			</ul>
 			
 		</div>
 	</div><!-- end first "frame" -->
 
-	<!-- second "frame" -->
-	<div id="main">
-		<h1 id="stanford">ONE<BR> WEEK<BR> AT<BR> STANFORD.</h1>
-		<h3 id="stanford-subtitle"> EXPERIENCE THE SILICON VALLEY AND<BR> GET THE MOST OUT OF ITS RESOURCES </h3>
-		<p id="stanford-paragraph">During Summit week, delegates attend<br> talks given by Silicon Valley's most<br>
-		   successful entrepreneurs, workshops<br> led by Stanford's most innovative thought<br> leaders and company
-		   visits to Silicon Valley's<br> greatest companies</p>
-	</div><!-- end second "frame" -->
-
 	
-	<!-- slice "frame" -->
-	<!--
-	<div id="slice">
-		<h3>Who we are</h3>
-	</div>
-	-->
-	<!-- end slice "frame" -->
-	
-
-	<!-- third "frame" -->
-	<div id="third">
-		<h1 id="experience">NETWORK<BR> WITH<BR> ENTREPRENEURS<BR> GLOBALLY.</h1>
-		<h3 id="experience-subtitle">EXPERIENCE THE SILICON VALLEY AND<BR> GET THE MOST OUT OF ITS RESOURCES</h3>
-		<p id="experience-paragraph">During Summit week, delegates attend<br> talks given by Silicon Valley's most<br> successful entrepreneurs, workshops<br> led by Stanford's most innovative thought<br> leaders and company
-		   visits to Silicon Valley's<br> greatest companies</p>
-	</div><!-- end third "frame" -->
-
-	<!--fourth "frame" -->
-	<!--
-	<div id="fourth">
-		<h1 id="network">Network with entrepreneurs at Stanford and around the world.</h1>
-	</div>
-	-->
-	<!-- end fourth "frame" -->
-
-	<!--contact "frame" -->
-	<!--
-	<div id="contact">
-		<h2>Contact Us</h2>
-	</div>
-	-->
-	<!-- end contact "frame" -->
 
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -103,9 +68,9 @@
 	<script>
 	  $(function(){
 	      $(".js-title-typing").typed({
-	        strings: ["WELCOME TO SUMMIT 2015."],
-	        typeSpeed: 55,
-	        showCursor: true
+	        strings: ["together, we'll take entrepreneurship to a whole new level."],
+	        typeSpeed: 30,
+	        showCursor: false
 	      });
 	  });
 	</script>
