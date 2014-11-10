@@ -313,7 +313,7 @@ a.navbar-brand{
 
 @media only screen and (max-width: 660px) {
 	.bioWrapper {
-		width: 70%;
+		width: 60%;
 		position: inherit;
 		right: inherit;
 		margin-left: auto;
@@ -354,7 +354,7 @@ a.navbar-brand{
    }
 
 }
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 568px) {
 	#mainTitle, #stanford, #experience, #network { 
 	   	font-size: 3.0em; 
 	   	margin-left: 6px;
@@ -364,6 +364,7 @@ a.navbar-brand{
    }
    #stanford-subtitle, #experience-subtitle {
    		top: 5em;
+   		font-size: 1.5em;
    }
 }
 .typed-cursor{
