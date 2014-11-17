@@ -6,6 +6,56 @@
   -webkit-background-size: cover;
   height: 100%;
 }
+#about1 {
+  background: url('img/peaks.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+}
+#graybox {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 3em;
+	height: 75%;
+	width: 70%;
+	background-color: rgba(0,0,0,0.4);
+}
+#SV {
+  background: url('img/golden.png') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 125%;
+  position: relative;
+}
+#dj {
+	width: 95%;
+	height: 100%;
+	margin-left: 6em;
+}
+#logos {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 32em;
+	width: 90%;
+}
+#last {
+  background: url('img/group_dark.png') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 120%;
+}
+#applyButton {
+	position: relative;
+	top: 45em;
+}
 #contact {
 	background: rgba(144,144,144,0.3);
 	background-size: cover;
@@ -109,6 +159,18 @@
 ul>li>a.active {
 	border-bottom: white 1px solid;
 }
+#splashButtons ul{
+	position: absolute;
+	bottom: 3em;
+	font-size: 2em;
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0;
+}
 #splashMainText {
 	position: absolute;
 	top: 15.0em;
@@ -154,6 +216,111 @@ ul>li>a.active {
 	font-family: 'Crimson Text', serif;
 	letter-spacing: 5px;
 }
+#ases {
+	position: absolute;
+	top: 2.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 5.5em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#spots {
+	position: absolute;
+	top: 5.3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 4.0em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#countries {
+	position: absolute;
+	top: 5.2em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 5.0em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#workshops {
+	position: absolute;
+	top: 6.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 5.0em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#leading {
+	position: absolute;
+	top: 16.1em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#pitch {
+	position: absolute;
+	top: 6.8em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 6.5em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#speakers {
+	margin-left: 1em;
+}
+#prevSpeakers {
+	position: relative;
+	top: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#invite {
+	position: relative;
+	top: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 11em;
+	padding-right: 11em;
+	width: 100%;
+	color: black;
+	font-size: 2.3em;
+	font-style: italic;
+	font-family: 'Georgia', sans-serif;
+	letter-spacing: 0px;
+}
 #team-sub {
 	position: absolute;
 	top: 8.0em;
@@ -190,7 +357,69 @@ ul>li>a.active {
 	font-family: 'Georgia', Serif;
 	letter-spacing: 3px;
 }
+#week {
+	position: absolute;
+	top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#exp {
+	position: absolute;
+	top: 9em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 11em;
+	padding-right: 11em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 2.3em;
+	font-style: italic;
+	font-family: 'Georgia', sans-serif;
+	letter-spacing: 0px;
+}
+#relationships {
+	position: absolute;
+	top: 61.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+}
+#meet {
+	position: absolute;
+	top: 111em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 11em;
+	padding-right: 11em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 2.3em;
+	font-style: italic;
+	font-family: 'Georgia', sans-serif;
+	letter-spacing: 0px;
+}
+#countdown{
 
+}
+#number{
+	position: absolute;
+	top: ;
+}
 #tagline {
 	position: absolute;
 	top: 12.0em;
@@ -244,6 +473,36 @@ ul>li>a.active {
   -webkit-background-size: cover;
   height: 100%;
 }
+#prevSlice {
+  background:white;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 50%;
+}
+.speakerBio{
+	width: 33.1%;
+	height: 48%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;	
+	color: white;
+	margin-top: 0em;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in;
+	-webkit-transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	-o-transition: opacity 0.3s ease-in;
+}
+.speakerBio:hover{
+	opacity: 0.8;
+}
+.speakerRoles{
+	top: 4.0em;
+	font-family: 'Georgia', sans-serif;
+	font-style: italic;
+}
 .bio{
 	width: 19.7%;
 	height: 100%;
@@ -265,6 +524,12 @@ ul>li>a.active {
 .name{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
+}
+.speakerName{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	top: 3em;
+	font-weight: bold;
 }
 .title{
 	font-family: 'Montserrat', sans-serif;
@@ -399,6 +664,24 @@ a.navbar-brand{
 }
 #meagan {
 	background: url('img/MeaganWu.jpg') no-repeat;
+}
+#peter {
+	background: url('img/peter.png') no-repeat;
+}
+#elon {
+	background: url('img/elon.png') no-repeat;
+}
+#andrew {
+	background: url('img/andrew.png') no-repeat;
+}
+#konstantin {
+	background: url('img/konstantin.png') no-repeat;
+}
+#jen {
+	background: url('img/jen.png') no-repeat;
+}
+#scott {
+	background: url('img/scott.png') no-repeat;
 }
 @media only screen and (max-width: 1036px) {
 	.bio {
@@ -568,6 +851,30 @@ a.navbar-brand{
 		top: 10em;
 	}
 	#date {
+		top: 18em;
+		font-size: 1.2em;
+	}
+	#ases {
+		top: 6em;
+		font-size: 1.0em;
+	}
+	#spots {
+		font-size: 0.8em;
+		top: 10em;
+	}
+	#countries {
+		top: 18em;
+		font-size: 1.2em;
+	}
+	#workshops {
+		top: 18em;
+		font-size: 1.2em;
+	}
+	#leading {
+		top: 18em;
+		font-size: 1.2em;
+	}
+	#pitch {
 		top: 18em;
 		font-size: 1.2em;
 	}
